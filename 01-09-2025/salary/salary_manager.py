@@ -20,6 +20,11 @@ def update(old_salary,new_salary):
     salaries[index]=new_salary
     return salaries
 
+def delete_by_salary(salary):
+    global salaries
+    index=read_by_salary(salaries)
+    salaries.pop(index)
+
 create_salary(1000)
 create_salary(5000)
 create_salary(8000)
