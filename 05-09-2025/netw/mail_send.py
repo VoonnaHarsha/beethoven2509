@@ -7,7 +7,7 @@ def send_gmail(to_address, subject, body):
     #Your Gmail address and App Password
     
     from_address = "spirit.2022.2@gmail.com"
-    app_password = "ppolutlgarbxdq"  # generate in Google Account -> Security -> App passwords
+    app_password = "ppolutlgarbxdq"  #md # generate in Google Account -> Security -> App passwords
     # to_address = "gmaheswaranmca@gmail.com"
 
     try:
